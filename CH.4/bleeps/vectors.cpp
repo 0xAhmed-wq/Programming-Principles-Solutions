@@ -2,7 +2,7 @@
 
 int main(){
 	vector<string> enteredWords;
-	vector<string> badWords = { "kalb" , "hiwan" , "zanwah" };
+	vector<string> badWords = { /*Here you put the words to be filterd ex: "bitch" */ };
 	
 	for(string temp; cin>>temp;)
 		enteredWords.push_back(temp);
